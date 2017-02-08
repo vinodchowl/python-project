@@ -5,6 +5,8 @@ import os
 def swapnibbles (sample):
     return sample[2:4]+sample[0:2]
     
+def addition (a,b):
+    return a+b
 
 try:
     os.chdir(os.path.dirname(sys.argv[1]))
